@@ -2,18 +2,17 @@
   "name": "jess",
   "version": "1.0.0",
   "description": "test",
-  "main": "index.js",
+  "main": "index.html",
   "dependencies": {},
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mkobetit/JessicaIsStupid.git"
   },
-  "author": "Michael Kobetitsch",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/mkobetit/JessicaIsStupid/issues"
