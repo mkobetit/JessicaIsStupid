@@ -1,0 +1,21 @@
+{
+  "name": "jess",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "index.html",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mkobetit/JessicaIsStupid.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mkobetit/JessicaIsStupid/issues"
+  },
+  "homepage": "https://github.com/mkobetit/JessicaIsStupid#readme"
+}
