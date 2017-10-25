@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Home</title>
+<link rel = "stylesheet" type="text/css" href = "index.css">
+<script src="dependencies/jquery-3.1.1.js"></script>
+<script src="index.js"></script>
+</head>
+<body>
+
+<form action="javascript:getUsersByLastName()">
+	<label> Last Name </label> 
+	<input id = "lastNameText" type="text">
+	<button type = "submit"> Search </button>
+</form>
+
+
+<form action="javascript:getUsersByGender()">
+	<label> Gender </label> 
+	<input id = "genderText" type="text">
+	<button type = "submit"> Search </button>
+</form>
+
+<br/>
+
+<div id = "table">
+<table id = "usersTable" class = "fullScreen">
+<tr id = "row0">
+	<th id = "firstName">
+		First Name
+	</th>
+	
+	<th id = "middleName">
+		Middle Name
+	</th>
+	
+	<th id = "lastName">
+		Last Name
+	</th>
+	
+	<th id = "gender">
+		Gender
+	</th>
+	
+	<th id = "emailAddress">
+		Email Address
+	</th>
+	
+	<th id = "phoneNumber">
+		Phone Number
+	</th>
+	
+	<th id = "companyName">
+		Company
+	</th>
+	
+	<th id = "jobTitle">
+		Job Title
+	</th>
+	
+	<th id = "salary">
+		Salary
+	</th>
+</tr>
+
+
+
+</table>
+
+</div>
+
+
+
+</body>
+</html>

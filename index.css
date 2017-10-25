@@ -1,0 +1,12 @@
+table, td, tr, th{
+  	border-collapse: collapse;
+  	border: 1px solid black;
+}
+
+.fullScreen {
+	width: 100%;
+}
+
+.alignCenter {
+	text-align: center;
+}

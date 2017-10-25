@@ -1,0 +1,35 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'c:\\Program Files (x86)\\nodejs\\node.exe',
+1 verbose cli   'c:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'start' ]
+2 info using npm@3.10.10
+3 info using node@v6.11.0
+4 verbose run-script [ 'prestart', 'start', 'poststart' ]
+5 info lifecycle jess@1.0.0~prestart: jess@1.0.0
+6 silly lifecycle jess@1.0.0~prestart: no script for prestart, continuing
+7 info lifecycle jess@1.0.0~start: jess@1.0.0
+8 verbose lifecycle jess@1.0.0~start: unsafe-perm in lifecycle true
+9 verbose lifecycle jess@1.0.0~start: PATH: c:\Program Files (x86)\nodejs\node_modules\npm\bin\node-gyp-bin;c:\workspaces\workspace\JessicaIsStupid\WebContent\node_modules\.bin;c:\Users\MXK3151\bin;.;C:\Users\MXK3151\AppData\Local\Programs\Git\local\bin;C:\Users\MXK3151\AppData\Local\Programs\Git\mingw\bin;C:\Users\MXK3151\AppData\Local\Programs\Git\bin;c:\ProgramData\Oracle\Java\javapath;c:\Program Files (x86)\RSA SecurID Token Common;c:\opt\isv\devtools\Perl\bin;c:\WINDOWS\system32;c:\WINDOWS;c:\WINDOWS\System32\Wbem;c:\WINDOWS\System32\WindowsPowerShell\v1.0\;c:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;c:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;c:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;c:\Program Files\Microsoft SQL Server\120\Tools\Binn\;c:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;c:\Program Files\Microsoft SQL Server\120\DTS\Binn\;c:\Program Files\Microsoft SQL Server\110\Tools\Binn\;c:\Program Files (x86)\Microsoft SDKs\TypeScript\1.0\;c:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\PrivateAssemblies\;c:\WINDOWS\System32\WindowsPowerShell\v1.0\;c:\Program Files (x86)\nodejs\;c:\Program Files\Cloud Foundry;c:\Program Files\apache-maven-3.5.0\bin;c:\Program Files\Java\jdk1.8.0_66\bin;c:\Program Files (x86)\Informix\Connect\bin;c:\opt\isv\devtools\Perl\bin;c:\WINDOWS\system32;c:\WINDOWS;c:\WINDOWS\System32\Wbem;c:\WINDOWS\System32\WindowsPowerShell\v1.0\;c:\Users\MXK3151\AppData\Roaming\npm;c:\Program Files\apache-maven-3.5.0\bin
+10 verbose lifecycle jess@1.0.0~start: CWD: c:\workspaces\workspace\JessicaIsStupid\WebContent
+11 silly lifecycle jess@1.0.0~start: Args: [ '/d /s /c', 'node server.js' ]
+12 verbose stack Error: kill ENOSYS
+12 verbose stack     at exports._errnoException (util.js:1018:11)
+12 verbose stack     at process.kill (internal/process.js:190:13)
+12 verbose stack     at process.listener (c:\Program Files (x86)\nodejs\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:86:15)
+12 verbose stack     at emitNone (events.js:91:20)
+12 verbose stack     at process.emit (events.js:185:7)
+12 verbose stack     at processEmit (c:\Program Files (x86)\nodejs\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:146:32)
+12 verbose stack     at processEmit (c:\Program Files (x86)\nodejs\node_modules\npm\node_modules\npm-registry-client\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:146:32)
+12 verbose stack     at Signal.wrap.onsignal (internal/process.js:217:44)
+13 verbose cwd c:\workspaces\workspace\JessicaIsStupid\WebContent
+14 error Windows_NT 6.1.7601
+15 error argv "c:\\Program Files (x86)\\nodejs\\node.exe" "c:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "start"
+16 error node v6.11.0
+17 error npm  v3.10.10
+18 error code ENOSYS
+19 error errno ENOSYS
+20 error syscall kill
+21 error kill ENOSYS
+22 error If you need help, you may report this error at:
+22 error     <https://github.com/npm/npm/issues>
+23 verbose exit [ 1, true ]
