@@ -53,7 +53,7 @@ function successCallback(success) {
 }
 
 $(document).ready(function() {
-	getUsers();
+	//getUsers();
 });
 
 /*function User() {
