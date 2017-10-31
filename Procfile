@@ -1,1 +1,1 @@
-web: node --debug=5858 index.js
+java $JAVA_OPTS -cp target/classes:target/dependency/* 
